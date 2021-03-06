@@ -1,7 +1,5 @@
 import string from './css.js'
 
-
-
 let n = 1
 let time = 100
 demo.innerText = string.substr(0, n)
@@ -13,8 +11,8 @@ const run = ()=>{
      window.clearInterval(id)
      return
  }
-demo.innerText = string.substr(0, n)
-demo2.innerHTML = string.substr(0, n)
+ demo.innerText = string.substr(0, n)
+ demo2.innerHTML = string.substr(0, n)
 demo.scrollTop = demo.scrollHeight
 }
 
