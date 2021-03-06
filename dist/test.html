@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DORAMEMON</title>
+</head>
+
+<body>
+    <div id="buttons">
+        <button id="btn_Play">播放</button>
+        <button id="btnTing">暂停</button>
+        <button id="btnSlow">慢放</button>
+        <button id="btnNormal">中速</button>
+        <button id="btnFast">快速</button>
+    </div>
+    <style id="demo2"></style>
+    <div id="demo"></div>
+
+    <style>* {
+            box-sizing: border-box;
+        }
+
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        #buttons {
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        #buttons>button {
+            margin-bottom: 10px;
+            padding: 4px 8px;
+        }
+
+        #demo2 {
+            display: none;
+        }
+
+        #demo {
+            position: fixed;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            width: 100%;
+            border: 1px solid red;
+            overflow-y: auto;
+        }
+
+        #demo::-webkit-scrollbar {
+            display: none;
+        }</style>
+
+    <div id="outside">
+        <div class="tou">
+            <div class="face"></div>
+            <div class="eyeLeft"></div>
+            <div class="eyeRight"></div>
+            <div class="nose"></div>
+            <div class="mouse"></div>
+            <div class="beardLeft1"></div>
+            <div class="beardLeft2"></div>
+            <div class="beardLeft3"></div>
+            <div class="beardRight1"></div>
+            <div class="beardRight2"></div>
+            <div class="beardRight3"></div>
+            <div class="shu"></div>
+        </div>
+    </div>
+</body>
+<script src="/test.e98b79dd.js"></script>
+
+</html>
